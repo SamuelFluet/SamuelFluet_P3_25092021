@@ -1,0 +1,22 @@
+{
+  "name": "samuelfluet_p3_25092021",
+  "version": "1.0.0",
+  "description": "P3",
+  "main": "yes",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelFluet/SamuelFluet_P3_25092021.git"
+  },
+  "keywords": [
+    "P3"
+  ],
+  "author": "Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelFluet/SamuelFluet_P3_25092021/issues"
+  },
+  "homepage": "https://github.com/SamuelFluet/SamuelFluet_P3_25092021#readme"
+}
