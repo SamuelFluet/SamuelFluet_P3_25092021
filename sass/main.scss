@@ -1,6 +1,15 @@
 body {
     margin: 0px;
     background: whitesmoke;
+    font-family: Robot-Regular;
+}
+@font-face {
+    font-family: 'Shrikhand-Regular';
+    src: url('Shrikhand-Regular.otf');
+}
+@font-face{
+    font-family: 'Roboto-Regular';
+    src: url('Roboto-Regular.ttf');
 }
 @mixin images{
     height: 300px;
@@ -25,4 +34,10 @@ main{
 }
 footer{
     background-color: grey;
+    margin:0px;
+}
+.menu{
+    border:solid 3px;
+    border-radius: 15%;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0);
 }
