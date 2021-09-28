@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    background: whitesmoke;
+}
+header{
+    h1{
+        text-align: center;
+    }
+}
+main{
+    article{
+        img{
+            height: 300px;
+            width: 375px;
+            object-fit: cover;
+        }
+    }
+}
+footer{
+    background-color: grey;
+}
