@@ -2,17 +2,24 @@ body {
     margin: 0px;
     background: whitesmoke;
 }
+@mixin images{
+    height: 300px;
+    width: 375px;
+    object-fit: cover;
+
+}
 header{
     h1{
         text-align: center;
+    }
+    img{
+        @include images; 
     }
 }
 main{
     article{
         img{
-            height: 300px;
-            width: 375px;
-            object-fit: cover;
+            @include images; 
         }
     }
 }

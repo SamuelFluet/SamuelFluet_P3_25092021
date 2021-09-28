@@ -6,6 +6,11 @@ body {
 header h1 {
   text-align: center;
 }
+header img {
+  height: 300px;
+  width: 375px;
+  object-fit: cover;
+}
 
 main article img {
   height: 300px;
