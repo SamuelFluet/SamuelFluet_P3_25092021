@@ -35,7 +35,7 @@ header img {
   width: 375px;
   object-fit: cover;
 }
-header button {
+header .btn {
   width: 250px;
   height: 50px;
   text-align: center;
@@ -54,6 +54,9 @@ main article img {
   height: 300px;
   width: 375px;
   object-fit: cover;
+}
+main article img h3 {
+  margin-left: 2em;
 }
 
 footer {
@@ -90,6 +93,10 @@ footer {
 }
 .menu h6 {
   font-weight: bold;
+}
+
+.carte h3 {
+  text-decoration: underline green;
 }
 
 /*# sourceMappingURL=style.css.map */
