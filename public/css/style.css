@@ -1,26 +1,55 @@
 body {
   margin: 0px;
-  background: whitesmoke;
-  font-family: Robot-Regular;
+  background: #ffffff;
 }
 
 @font-face {
-  font-family: "Shrikhand-Regular";
-  src: url("Shrikhand-Regular.otf");
+  font-family: "shrikhandregular";
+  src: url("fonts/shrikhand-regular-webfont.woff2") format("woff2"), url("fonts/shrikhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: "Roboto-Regular";
-  src: url("Roboto-Regular.ttf");
+  font-family: "robotoregular";
+  src: url("fonts/roboto-regular-webfont.woff2") format("woff2"), url("fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  background-color: #f6f6f6;
 }
 header h1 {
   text-align: center;
+  font-family: "shrikhandregularr";
+}
+header h2 {
+  text-align: center;
+  font-size: 25px;
+}
+header h3 {
+  text-align: center;
+  background-color: #eaeaea;
 }
 header img {
   height: 300px;
   width: 375px;
   object-fit: cover;
 }
+header button {
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  background-color: #FF79DA;
+  color: white;
+  font-size: medium;
+  border-radius: 30px;
+  margin-left: 4em;
+}
 
+main {
+  font-family: "robotoregular";
+  background-color: #f6f6f6;
+}
 main article img {
   height: 300px;
   width: 375px;
@@ -28,14 +57,39 @@ main article img {
 }
 
 footer {
-  background-color: grey;
+  background-color: #353535;
   margin: 0px;
 }
 
+.resto {
+  border-radius: 5%;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  margin: 1em;
+  overflow: hidden;
+}
+.resto img {
+  object-fit: cover;
+  width: 100%;
+}
+.resto h3 {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.resto h4 {
+  text-decoration: none;
+}
+
 .menu {
-  border: solid px;
-  border-radius: 15%;
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  margin: 1em;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+.menu h5 {
+  font-weight: normal;
+}
+.menu h6 {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
