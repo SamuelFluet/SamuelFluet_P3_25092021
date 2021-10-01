@@ -1,14 +1,9 @@
+@import "./menu.scss";
+@import "./carte.scss";
+@import "./mixin.scss";
 body {
     margin: 0px;
     background: #ffffff;
-}
-@font-face {
-    font-family: 'shrikhandregular';
-    src: url('fonts/shrikhand-regular-webfont.woff2') format('woff2'),
-         url('fonts/shrikhand-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 @font-face {
     font-family: 'robotoregular';
@@ -18,17 +13,10 @@ body {
     font-style: normal;
 
 }
-@mixin images{
-    height: 300px;
-    width: 375px;
-    object-fit: cover;
-
-}
 header{
     background-color: #f6f6f6;
     h1{
         text-align: center;
-        font-family: 'shrikhandregularr';
     }
     h2{
         text-align:center;
@@ -38,18 +26,18 @@ header{
         text-align:center;
         background-color:#eaeaea;        ;
     }
-    img{
-        @include images; 
-    }
     .btn{
-        width: 250px;
-        height: 50px;
+        @include btn;
+    }
+    img{
+        width:100%;
+    }
+    .logo{
+        width:180px;
+        margin-top:1em;
+    }
+    div{
         text-align: center;
-        background-color: #FF79DA;
-        color: white;
-        font-size: medium;
-        border-radius: 30px;
-        margin-left:4em;
     }
 }
 
@@ -87,20 +75,8 @@ footer{
         text-decoration: none;
     }
 }
-.menu{
-    h5{
-        font-weight: normal;
-    }
-    h6{
-        font-weight: bold;
-    }
-    margin: 1em;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+.btn{
+    @include btn;
 }
-.carte {
-    h3{
-        text-decoration: underline green;
-        }
-}
-    
+
+   

@@ -1,0 +1,15 @@
+.menu{
+    h5{
+        font-weight: normal;
+    }
+    h6{
+        font-weight: bold;
+    }
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+    .menu_prix{
+        display: flex;
+        justify-content: space-between;
+    }
+}
