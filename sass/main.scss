@@ -55,7 +55,20 @@ main{
 }
 footer{
     background-color: #353535;
-    margin:0px;
+    h2{
+        font-family: 'shrikhandregular';
+        color:white;
+        padding-left: 43px;
+    }
+    ul {
+        list-style-type: none;
+        }
+        li{
+            color:white;
+            font-weight: 500;
+            padding-top: 5px;
+            font-family:'robotoregular' ;
+        }
 }
 .resto{
     border-radius: 5%;
