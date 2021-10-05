@@ -6,6 +6,9 @@ header {
   font-family: "Robotoregular";
 }
 header h3 {
+  margin: 0px;
+}
+header h3 {
   padding: 1em;
 }
 header .fa-map-marker-alt {
@@ -20,10 +23,15 @@ header .Reservez {
 }
 header .Decouvrez {
   text-align: center;
+  font-size: large;
 }
 header .btn {
   margin-top: 1em;
   margin-bottom: 2em;
+}
+header .numero {
+  border-radius: 100%;
+  background-color: #9356DC;
 }
 
 .Fonctionnement {
@@ -34,6 +42,8 @@ header .btn {
   list-style-type: none;
 }
 .Fonctionnement .fct {
+  display: flex;
+  flex-direction: row;
   background-color: #f6f6f6;
   padding-bottom: 1em;
   margin-bottom: 2em;
@@ -41,6 +51,10 @@ header .btn {
   padding-top: 1em;
   border-radius: 15px;
   box-shadow: 0px 0px 25px -3px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  text-decoration: underline green;
 }
 
 .menu {
@@ -58,22 +72,23 @@ header .btn {
   display: flex;
   justify-content: space-between;
 }
-
-a {
+.menu a {
   text-decoration: none;
   color: black;
 }
-
-h3 {
+.menu h3 {
   padding-left: 1em;
 }
-
-p {
+.menu h4 {
   padding-left: 1em;
+}
+.menu p {
+  padding-left: 1em;
+  margin: 0px;
 }
 
 .carte h3 {
-  text-decoration: underline green;
+  text-decoration: underline green 3px;
 }
 
 body {

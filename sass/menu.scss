@@ -2,6 +2,9 @@
     background-color: white;;
 }
 header{
+    h3{
+        margin: 0px;
+    }
     font-family: "Robotoregular";
     h3{
         padding:1em;
@@ -18,20 +21,28 @@ header{
     }
     .Decouvrez{
         text-align: center;
+        font-size: large;
     }
     .btn{
         margin-top:1em;
         margin-bottom: 2em;
 
     }
+    .numero{
+        border-radius: 100%;
+        background-color: #9356DC;
+    }
 }
 .Fonctionnement{
     background-color: white;
     padding:2em;
+
     ul {
         list-style-type: none;
         }
     .fct{
+        display: flex;
+        flex-direction: row;
         background-color: #f6f6f6;
         padding-bottom: 1em;
         margin-bottom: 2em;
@@ -42,7 +53,11 @@ header{
     }
 
 }
+h3{
+    text-decoration: underline green;
+}
 .menu{
+
     h5{
         font-weight: normal;
     }
@@ -56,14 +71,19 @@ header{
         display: flex;
         justify-content: space-between;
     }
+    a{
+        text-decoration:none;
+        color: black;
+    }
+    h3{
+        padding-left: 1em;
+    }
+    h4{
+        padding-left: 1em;
+    }
+    p{
+        padding-left: 1em;
+        margin: 0px;
+    }
 }
-a{
-    text-decoration:none;
-    color: black;
-}
-h3{
-    padding-left: 1em;
-}
-p{
-    padding-left: 1em;
-}
+
