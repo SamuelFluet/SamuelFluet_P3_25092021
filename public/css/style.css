@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .log {
   background-color: white;
 }
@@ -51,10 +52,24 @@ header .numero {
   padding-top: 1em;
   border-radius: 15px;
   box-shadow: 0px 0px 25px -3px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.Fonctionnement .fct .numéro {
+  position: absolute;
+  left: -30px;
+  background-color: #9356DC;
+  border-radius: 100%;
 }
 
-h3 {
-  text-decoration: underline green;
+.img_resto {
+  position: relative;
+}
+
+.nv {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: chartreuse;
 }
 
 .menu {
@@ -73,11 +88,14 @@ h3 {
   justify-content: space-between;
 }
 .menu a {
-  text-decoration: none;
   color: black;
+}
+.menu a:link {
+  text-decoration: none;
 }
 .menu h3 {
   padding-left: 1em;
+  text-decoration: underline green;
 }
 .menu h4 {
   padding-left: 1em;

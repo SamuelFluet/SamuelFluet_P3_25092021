@@ -51,17 +51,22 @@ header{
         border-radius: 15px;
         box-shadow: 0px 0px 25px -3px rgba(0,0,0,0.2);
         position: relative;
-        {
             .numéro{
                 position: absolute;
-                left: -20px;
+                left: -30px;
+                background-color: #9356DC;
+                border-radius: 100%;
             }
-        }
     }
-
 }
-h3{
-    text-decoration: underline green;
+.img_resto{
+    position: relative;
+}
+.nv{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    background-color: chartreuse;
 }
 .menu{
 
@@ -79,11 +84,15 @@ h3{
         justify-content: space-between;
     }
     a{
-        text-decoration:none;
         color: black;
     }
+    a:link 
+    { 
+        text-decoration:none; 
+    } 
     h3{
         padding-left: 1em;
+        text-decoration: underline green;
     }
     h4{
         padding-left: 1em;
