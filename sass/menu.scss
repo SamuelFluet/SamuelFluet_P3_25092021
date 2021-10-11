@@ -66,7 +66,11 @@ header{
     position:absolute;
     top: 20px;
     right: 20px;
-    background-color: chartreuse;
+    background-color: #99e2d0;
+    font-size: medium;
+    padding: 5px;
+    border-radius: 3px;
+    color: #008766;
 }
 .menu{
 
@@ -92,7 +96,6 @@ header{
     } 
     h3{
         padding-left: 1em;
-        text-decoration: underline green;
     }
     h4{
         padding-left: 1em;

@@ -69,7 +69,11 @@ header .numero {
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: chartreuse;
+  background-color: #99e2d0;
+  font-size: medium;
+  padding: 5px;
+  border-radius: 3px;
+  color: #008766;
 }
 
 .menu {
@@ -95,7 +99,6 @@ header .numero {
 }
 .menu h3 {
   padding-left: 1em;
-  text-decoration: underline green;
 }
 .menu h4 {
   padding-left: 1em;
