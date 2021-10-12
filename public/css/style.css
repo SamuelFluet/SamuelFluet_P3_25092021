@@ -56,12 +56,19 @@ header .numero {
 }
 .Fonctionnement .fct .numéro {
   position: absolute;
-  left: -10px;
+  left: -40px;
   background-color: #9356DC;
   border-radius: 100%;
   padding: 4px;
   width: 20px;
   text-align: center;
+}
+.Fonctionnement .fct i {
+  margin-right: 1em;
+  color: grey;
+}
+.Fonctionnement .fct .fa-store {
+  color: #9356DC;
 }
 
 .img_resto {
@@ -110,12 +117,31 @@ header .numero {
   padding-left: 1em;
   margin: 0px;
 }
-.menu .resto a {
+
+.resto h3 {
+  margin: 5px;
+}
+.resto p {
+  margin: 5px;
+  color: black;
+}
+.resto a {
   text-decoration: none;
 }
 
 .carte h3 {
   text-decoration: underline green 3px;
+}
+
+.img_resto {
+  position: relative;
+}
+
+.menu_carte {
+  position: absolute;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 30px;
 }
 
 body {
@@ -187,7 +213,7 @@ footer {
 footer h2 {
   font-family: "shrikhandregular";
   color: white;
-  padding-left: 43px;
+  padding-left: 42px;
 }
 footer ul {
   list-style-type: none;

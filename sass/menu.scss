@@ -53,12 +53,19 @@ header{
         position: relative;
             .numéro{
                 position: absolute;
-                left: -10px;
+                left: -40px;
                 background-color: #9356DC;
                 border-radius: 100%;
                 padding: 4px;
                 width: 20px;
                 text-align: center;
+            }
+            i{
+                margin-right: 1em;
+                color: grey;
+            }
+            .fa-store{
+                color:#9356DC;
             }
     }
 }
@@ -107,8 +114,18 @@ header{
         padding-left: 1em;
         margin: 0px;
     }
-.resto a{
+}
+.resto {
+    h3{
+        margin:5px;
+    }
+    p{
+        margin:5px;
+        color: black;
+    }
+    a{
     text-decoration: none;
+    }
 }
-}
+
 
