@@ -1,0 +1,16 @@
+@media screen and (min-width: 1024px)
+{
+    header{
+        display: flex;
+    }
+    .restos{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+    }
+    main ul{
+        display:flex;
+    }
+    .fct{
+        margin:50px;
+    }
+}
