@@ -56,7 +56,7 @@ header .numero {
 }
 .Fonctionnement .fct .numéro {
   position: absolute;
-  left: -40px;
+  left: -35px;
   background-color: #9356DC;
   border-radius: 100%;
   padding: 4px;
@@ -129,19 +129,12 @@ header .numero {
   text-decoration: none;
 }
 
+header .fa-arrow-left {
+  width: 30px;
+}
+
 .carte h3 {
   text-decoration: underline green 3px;
-}
-
-.img_resto {
-  position: relative;
-}
-
-.menu_carte {
-  position: absolute;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  height: 30px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -160,6 +153,16 @@ header .numero {
 
   .fct {
     margin: 50px;
+  }
+
+  footer {
+    display: flex;
+  }
+  footer ul {
+    display: flex;
+  }
+  footer ul li {
+    margin-right: 30px;
   }
 }
 body {
@@ -199,6 +202,7 @@ header .btn {
   border-radius: 30px;
   margin-left: 1em;
   border: none;
+  cursor: pointer;
 }
 header img {
   width: 100%;
@@ -274,6 +278,7 @@ footer li {
   border-radius: 30px;
   margin-left: 1em;
   border: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

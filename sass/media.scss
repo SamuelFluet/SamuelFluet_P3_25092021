@@ -13,4 +13,13 @@
     .fct{
         margin:50px;
     }
+    footer{
+        display: flex;
+        ul{
+            display: flex;
+            li{
+                margin-right:30px;
+            }
+         }
+    }
 }
