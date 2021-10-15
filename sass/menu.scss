@@ -4,9 +4,6 @@
 header{
     h3{
         margin: 0px;
-    }
-    font-family: "Robotoregular";
-    h3{
         padding:1em;
     }
     .fa-map-marker-alt{
@@ -70,9 +67,6 @@ header{
             }
     }
 }
-.img_resto{
-    position: relative;
-}
 .nv{
     position:absolute;
     top: 20px;
@@ -130,9 +124,13 @@ header{
 }
 .nom_resto{
     display: flex;
+    justify-content:space-between;
 }
 .fa-heart{
     right:20px;
     size: 40px;
+    margin-left:20px;
+    font-weight: 800;
+    font-size:20px;
 }
 
