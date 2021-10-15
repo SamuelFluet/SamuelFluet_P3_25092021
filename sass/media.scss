@@ -2,6 +2,15 @@
 {
     header{
         display: flex;
+        font-family: 'robotoregular';
+        font-size: medium;
+        background-color: white;
+        h3{
+            background-color: white;
+        }
+        .Reservez{
+            font-size:20px;
+        }
     }
     .restos{
         display: grid;

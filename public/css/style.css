@@ -41,8 +41,10 @@ header .numero {
 }
 .Fonctionnement ul {
   list-style-type: none;
+  color: white;
 }
 .Fonctionnement .fct {
+  color: black;
   display: flex;
   flex-direction: row;
   background-color: #f6f6f6;
@@ -129,6 +131,15 @@ header .numero {
   text-decoration: none;
 }
 
+.nom_resto {
+  display: flex;
+}
+
+.fa-heart {
+  right: 20px;
+  size: 40px;
+}
+
 .carte h3 {
   text-decoration: underline green 3px;
 }
@@ -150,6 +161,15 @@ header .numero {
 @media screen and (min-width: 1024px) {
   header {
     display: flex;
+    font-family: "robotoregular";
+    font-size: medium;
+    background-color: white;
+  }
+  header h3 {
+    background-color: white;
+  }
+  header .Reservez {
+    font-size: 20px;
   }
 
   .restos {
