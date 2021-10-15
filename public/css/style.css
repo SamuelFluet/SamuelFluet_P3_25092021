@@ -349,4 +349,8 @@ footer li {
   display: flex;
 }
 
+.img_resto {
+  position: relative;
+}
+
 /*# sourceMappingURL=style.css.map */
