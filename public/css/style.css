@@ -53,14 +53,16 @@ header .numero {
 }
 .Fonctionnement .fct .numéro {
   position: absolute;
-  left: -35px;
+  left: -25px;
   background-color: #9356DC;
   border-radius: 100%;
   padding: 4px;
   width: 20px;
   text-align: center;
+  color: white;
 }
 .Fonctionnement .fct i {
+  padding-left: 1em;
   margin-right: 1em;
   color: grey;
 }
@@ -143,7 +145,7 @@ header .numero {
   background-color: white;
 }
 .menu_carte h3 {
-  text-decoration: underline green 3px;
+  text-decoration: underline #99e2d0 3px;
   margin-left: 20px;
 }
 
@@ -308,6 +310,12 @@ footer li {
   padding-top: 5px;
   font-family: "robotoregular";
 }
+footer i {
+  margin-right: 10px;
+}
+footer .fa-utensils {
+  margin-right: 16px;
+}
 
 .resto {
   border-radius: 5%;
@@ -347,6 +355,8 @@ footer li {
 
 .content_btn {
   display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .img_resto {
