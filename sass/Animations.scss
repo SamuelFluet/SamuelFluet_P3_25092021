@@ -32,15 +32,3 @@ $thickness:  8px; // Odd numbers created a "wobble" effect.
 }
 
 
-//********************************************************//
-// This stuff is just for presentation on Codepen.
-// You don't need it.
-//********************************************************//
-body {
-  background: white;
-}
-
-.loading-spinner {
-  @include position(absolute, 50% 0 0 50%);
-  margin: -$size/2 0 0 -$size/2;
-}
