@@ -143,8 +143,8 @@ header{
     font-size:20px;
     padding-top:1em;
     padding-right: 1em;
-    &:input:checked{
-        background-color: red;
+    font-weight: 600;
+    &:hover{
         color: red;
     }
 }
