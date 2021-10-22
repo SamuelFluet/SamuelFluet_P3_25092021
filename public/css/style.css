@@ -227,10 +227,9 @@ header .numero {
 .loader-quart {
   border-radius: 50px;
   border: 6px solid #9356DC;
-  animation: spin 1, 5s ease-in-out 3;
 }
 
-.load-quert:after {
+.load-quart:after {
   position: absolute;
   top: -6px;
   left: -6px;
@@ -239,7 +238,7 @@ header .numero {
   border-radius: 50px;
   border: 10px solid transparent;
   border-top-color: 6px solid white;
-  animation: spin 1, 5s ease-in-out 3;
+  animation: 1, 5s ease-in-out 3 spin;
 }
 
 @keyframes spin {
