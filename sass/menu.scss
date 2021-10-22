@@ -2,6 +2,13 @@
     background-color: white;;
 }
 header{
+    .fa-arrow-left{
+            padding-top: 2em;
+        }
+    h1{
+        margin: 0px;
+        padding-top:1em;
+    }
     h3{
         margin: 0px;
         padding:1em;
@@ -134,5 +141,11 @@ header{
     margin-left:20px;
     font-weight: 800;
     font-size:20px;
+    padding-top:1em;
+    padding-right: 1em;
+    &:input:checked{
+        background-color: red;
+        color: red;
+    }
 }
 
