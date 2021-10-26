@@ -1,8 +1,17 @@
 .loadcontent{
     background-color: white;
-    height: auto ;
+    height: 100% ;
+    width:100%;
+    z-index:2;
+    top:0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    visibility:hidden;
+    animation: 3s hidden;
     line-height:auto;
     position: absolute;
+    animation: 3s  hiding;
 }
 .loading{
     width:50px;
@@ -10,31 +19,34 @@
     display: inline-block;
     vertical-align: middle; 
     position: relative; 
-}
-.loader-quart{
     border-radius: 50px;
     border: 6px solid #9356DC;
-}
-.load-quart:after{
-    position:absolute;
-    top: -6px;
-    left:-6px;
-    bottom:-6px;
-    right:-6px;
-    border-radius: 50px;;
-    border: 10px solid transparent;
-    border-top-color:6px solid white ;
-    animation:1,5s ease-in-out 3 spin;
-}
+    &:after{
+        content:"";
+        position:absolute;
+        top: -6px;
+        left:-6px;
+        bottom:-6px;
+        right:-6px;
+        border-radius: 50px;;
+        border: 10px solid transparent;
+        border-top-color:white ;
+        animation:1,2s ease-in-out 3 spin;
+    }
+} 
 @keyframes spin{
     0%{ 
-        transform:rotate(0 deg);
-        width:100%;
-        height:100%;
-        position:absolute;
+        transform:rotate(0deg);
     }
     100%{
-        transform:rotate(360 deg);
-        display:none;
+        transform:rotate(360deg);
+    }
+}
+@keyframes hiding{
+    from{
+        visibility: initial;
+    }
+    to{
+        visibility: hidden;
     }
 }
