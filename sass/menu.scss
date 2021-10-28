@@ -99,7 +99,9 @@ header{
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
     .menu_prix{
         display: flex;
-        justify-content: space-between;
+    }
+    .price{
+        justify-content: flex-end;
     }
     a{
         color: black;
@@ -145,6 +147,7 @@ header{
     padding-right: 1em;
     font-weight: 600;
     &:hover{
+        font-weight: 800;
         color: red;
     }
 }

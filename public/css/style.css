@@ -101,7 +101,9 @@ header .numero {
 }
 .menu .menu_prix {
   display: flex;
-  justify-content: space-between;
+}
+.menu .price {
+  justify-content: flex-end;
 }
 .menu a {
   color: black;
@@ -147,6 +149,7 @@ header .numero {
   font-weight: 600;
 }
 .fa-heart:hover {
+  font-weight: 800;
   color: red;
 }
 
@@ -264,14 +267,28 @@ header .numero {
   }
 }
 .check {
-  opacity: 0;
-  transition: all 2s;
-  width: 0;
+  width: 0px;
 }
 
-.price:hover .check {
+.check:hover {
   width: 30px;
+  height: 20px;
+  background: green;
   opacity: 1;
+}
+
+@keyframes defil {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.menu {
+  animation: defil 2s ease-in-out;
 }
 
 body {
@@ -308,7 +325,7 @@ body {
   src: url(https://fonts.gstatic.com/s/shrikhand/v6/a8IbNovtLWfR7T7bMJwrA4KR.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-h2, h1 {
+h1 {
   font-family: "Shrikhand", cursive;
 }
 
