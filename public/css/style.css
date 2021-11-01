@@ -140,7 +140,6 @@ header .numero {
 
 .fa-heart {
   right: 20px;
-  size: 40px;
   margin-left: 20px;
   font-weight: 400;
   font-size: 20px;
@@ -225,7 +224,6 @@ header .numero {
   align-items: center;
   visibility: hidden;
   animation: 3s hidden;
-  line-height: auto;
   position: absolute;
   animation: 3s hiding;
 }
