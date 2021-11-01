@@ -407,9 +407,6 @@ main {
   font-family: "robotoregular";
   background-color: #f6f6f6;
 }
-main section h6 {
-  display: none;
-}
 main article img {
   height: 300px;
   width: 375px;
