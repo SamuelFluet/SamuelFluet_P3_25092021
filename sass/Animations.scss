@@ -52,12 +52,28 @@
 }
 .check{
     width:0px;
+    opacity:0;
+    transition: all 2s;
 }
-.check:hover{
-    width:30px;
-    height:20px;
-    background: green;
+.menu_prix{
+        justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu:hover .check{
+    width: 70px;
+    height:100%;
+    background: #99E2D0;
     opacity:1;
+    .fa-check-circle{
+        font-weight: 800;
+        transform: rotate(360deg);
+        font-size: 25px;
+        color:white;
+        justify-self:center;
+    }
 }
 @keyframes defil{
     from{
