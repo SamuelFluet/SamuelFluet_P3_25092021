@@ -162,8 +162,9 @@ header .numero {
   margin-top: -100px;
   background-color: white;
 }
-.menu_carte h3 {
-  text-decoration: underline #99e2d0 3px;
+.menu_carte h3 span {
+  border-bottom: solid #99e2d0 3px;
+  padding-bottom: 5px;
   margin-left: 20px;
 }
 
