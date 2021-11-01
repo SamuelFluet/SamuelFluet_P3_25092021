@@ -274,11 +274,23 @@ header .numero {
 
 .menu_prix {
   justify-content: space-between;
+  line-height: 86px;
+  text-align: center;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+}
+
+.fa-check-circle {
+  transform: rotate(0deg);
+  transition: all 1s;
+  font-weight: 800;
+  color: white;
+  font-size: 25px;
+  justify-self: center;
 }
 
 .menu:hover .check {
@@ -288,11 +300,7 @@ header .numero {
   opacity: 1;
 }
 .menu:hover .check .fa-check-circle {
-  font-weight: 800;
   transform: rotate(360deg);
-  font-size: 25px;
-  color: white;
-  justify-self: center;
 }
 
 @keyframes defil {
