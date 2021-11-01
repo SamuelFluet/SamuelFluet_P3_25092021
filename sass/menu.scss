@@ -154,14 +154,16 @@ header{
 }
 
 @media screen and (min-width: 1024px) {
-    .titre{
-        img{
+.header_img_resto{
             height: 500px;
             object-fit: cover;
         }
-    }
     .menu_carte{
         display: grid;
         grid-template-columns: 30% 30% 30%;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
     }
 }
