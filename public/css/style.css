@@ -155,22 +155,6 @@ header .numero {
   color: linear-gradient(170deg, #ff79da 35%, rgba(147, 86, 220, 0.9668242297) 100%);
 }
 
-@media screen and (min-width: 1024px) {
-  .header_img_resto {
-    height: 500px;
-    object-fit: cover;
-  }
-
-  .menu_carte {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-  }
-
-  header {
-    display: flex;
-    flex-direction: column;
-  }
-}
 .menu_carte {
   position: relative;
   border-top-left-radius: 25px;
@@ -193,6 +177,22 @@ header .numero {
   margin-left: 20px;
 }
 
+@media screen and (min-width: 1024px) {
+  .header_img_resto {
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .menu_carte {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media screen and (min-width: 1024px) {
   header {
     display: flex;
