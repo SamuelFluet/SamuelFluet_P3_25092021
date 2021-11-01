@@ -440,6 +440,11 @@ footer i {
 footer .fa-utensils {
   margin-right: 17px;
 }
+footer a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
 
 .resto {
   border-radius: 5%;
