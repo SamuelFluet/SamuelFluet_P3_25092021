@@ -142,15 +142,17 @@ header .numero {
   right: 20px;
   size: 40px;
   margin-left: 20px;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 20px;
   padding-top: 1em;
   padding-right: 1em;
-  font-weight: 600;
+  transition: all 1s;
+  color: black;
 }
 .fa-heart:hover {
-  font-weight: 800;
-  color: red;
+  font-weight: 600;
+  color: #ff79da;
+  color: linear-gradient(170deg, #ff79da 35%, rgba(147, 86, 220, 0.9668242297) 100%);
 }
 
 .menu_carte {
