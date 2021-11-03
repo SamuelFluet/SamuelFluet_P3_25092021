@@ -139,7 +139,7 @@ header .numero {
 
 .fa-heart {
   right: 20px;
-  size: 40px;
+  font-size: 40px;
   margin-left: 20px;
   font-weight: 400;
   font-size: 20px;
@@ -150,8 +150,8 @@ header .numero {
 }
 .fa-heart:hover {
   font-weight: 600;
-  color: #ff79da;
-  color: linear-gradient(170deg, #ff79da 35%, rgba(147, 86, 220, 0.9668242297) 100%);
+  background: #ff79da;
+  background: linear-gradient(170deg, #ff79da 35%, rgba(147, 86, 220, 0.9668242297) 100%);
 }
 
 .menu_carte {
@@ -245,7 +245,7 @@ header .numero {
   align-items: center;
   visibility: hidden;
   animation: 3s hidden;
-  line-height: auto;
+  line-height: 50px;
   position: absolute;
   animation: 3s hiding;
 }
