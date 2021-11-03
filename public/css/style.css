@@ -245,7 +245,7 @@ header .numero {
   align-items: center;
   visibility: hidden;
   animation: 3s hidden;
-  line-height: auto;
+  line-height: 50px;
   position: absolute;
   animation: 3s hiding;
 }
