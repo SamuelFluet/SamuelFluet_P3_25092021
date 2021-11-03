@@ -164,10 +164,18 @@ header .numero {
   margin-top: -100px;
   background-color: white;
 }
-.menu_carte h3 span {
+
+p {
+  padding-right: 15px;
+}
+p h3 span {
   border-bottom: solid #99e2d0 3px;
   padding-bottom: 5px;
   margin-left: 20px;
+}
+
+.menu_prix {
+  font-weight: bold;
 }
 
 .fa-arrow-left {
