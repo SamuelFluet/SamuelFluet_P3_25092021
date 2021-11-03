@@ -10,7 +10,7 @@ header{
         padding-top:1em;
     }
     h3{
-        margin: 0px;
+        margin: 20px;
         padding:1em;
     }
     .fa-map-marker-alt{
@@ -144,11 +144,14 @@ header{
     padding-top:1em;
     padding-right: 1em;
     transition: all 1s;
-    color: black;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     &:hover{
         font-weight: 600;
-        color: rgb(255,121,218);
-        color: linear-gradient(170deg, rgba(255,121,218,1) 35%, rgba(147,86,220,0.9668242296918768) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
