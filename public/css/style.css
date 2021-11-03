@@ -41,9 +41,8 @@ header .numero {
   background-color: white;
   padding: 2em;
 }
-.Fonctionnement ul {
-  list-style-type: none;
-  color: white;
+.Fonctionnement .list {
+  margin: 1em;
 }
 .Fonctionnement .fct {
   color: black;
@@ -60,7 +59,7 @@ header .numero {
 }
 .Fonctionnement .fct .numéro {
   position: absolute;
-  left: -25px;
+  left: -20px;
   background-color: #9356DC;
   border-radius: 100%;
   padding: 4px;
@@ -214,6 +213,10 @@ header .numero {
   }
 
   main ul {
+    display: flex;
+  }
+
+  .list {
     display: flex;
   }
 

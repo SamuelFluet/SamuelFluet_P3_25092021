@@ -40,10 +40,9 @@ header{
 .Fonctionnement{
     background-color: white;
     padding:2em;
-    ul {
-        list-style-type: none;
-        color:white;
-        }
+    .list{
+        margin: 1em;
+    }
     .fct{
         color:black;
         display: flex;
@@ -58,7 +57,7 @@ header{
         position: relative;
             .numéro{
                 position: absolute;
-                left: -25px;
+                left: -20px;
                 background-color: #9356DC;
                 border-radius: 100%;
                 padding: 4px;
