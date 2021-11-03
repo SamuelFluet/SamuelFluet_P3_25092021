@@ -11,7 +11,7 @@ header h1 {
   padding-top: 1em;
 }
 header h3 {
-  margin: 0px;
+  margin: 20px;
   padding: 1em;
 }
 header .fa-map-marker-alt {
@@ -146,12 +146,15 @@ header .numero {
   padding-top: 1em;
   padding-right: 1em;
   transition: all 1s;
-  color: black;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .fa-heart:hover {
   font-weight: 600;
-  color: #ff79da;
-  color: linear-gradient(170deg, #ff79da 35%, rgba(147, 86, 220, 0.9668242297) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu_carte {
