@@ -137,7 +137,7 @@ header{
 }
 .fa-heart{
     right:20px;
-    size: 40px;
+    font-size: 40px;
     margin-left:20px;
     font-weight: 400;
     font-size:20px;
@@ -147,8 +147,8 @@ header{
     color: black;
     &:hover{
         font-weight: 600;
-        color: rgb(255,121,218);
-        color: linear-gradient(170deg, rgba(255,121,218,1) 35%, rgba(147,86,220,0.9668242296918768) 100%);
+        background: rgb(255,121,218);
+        background: linear-gradient(170deg, rgba(255,121,218,1) 35%, rgba(147,86,220,0.9668242296918768) 100%);
     }
 }
 
