@@ -150,8 +150,8 @@ header .numero {
 }
 .fa-heart:hover {
   font-weight: 600;
-  background: #ff79da;
-  background: linear-gradient(170deg, #ff79da 35%, rgba(147, 86, 220, 0.9668242297) 100%);
+  color: #ff79da;
+  color: linear-gradient(170deg, #ff79da 35%, rgba(147, 86, 220, 0.9668242297) 100%);
 }
 
 .menu_carte {
