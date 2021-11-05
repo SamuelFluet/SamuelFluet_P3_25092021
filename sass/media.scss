@@ -35,3 +35,9 @@
          }
     }
 }
+@media screen and (min-width: 700px) and (max-width :1000px){
+    .restos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
