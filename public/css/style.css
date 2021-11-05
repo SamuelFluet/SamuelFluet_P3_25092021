@@ -66,14 +66,14 @@ header .numero {
   width: 20px;
   text-align: center;
   color: white;
+  top: 15px;
 }
 .Fonctionnement .fct i {
   padding-left: 1em;
-  margin-right: 1em;
+  margin-right: 20px;
+  margin-left: 20px;
   color: grey;
-}
-.Fonctionnement .fct .fa-store {
-  color: #9356DC;
+  margin-top: 3px;
 }
 
 .nv {
@@ -174,8 +174,15 @@ h3 {
   padding-left: 1em;
 }
 h3 span {
-  border-bottom: solid #99e2d0 3px;
-  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+h3 span:after {
+  content: "";
+  background-color: #99e2d0;
+  width: 35px;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
 }
 
 .menu_prix {
@@ -193,6 +200,7 @@ h3 span {
 }
 .nom_resto h2 {
   margin-left: 20px;
+  font-family: "Shrikhand", cursive;
 }
 
 @media screen and (min-width: 1024px) {
@@ -307,7 +315,8 @@ h3 span {
   }
 }
 .check {
-  width: 0px;
+  width: 70px;
+  margin-right: -70px;
   opacity: 0;
   transition: all 2s;
 }
@@ -335,13 +344,22 @@ h3 span {
 }
 
 .menu:hover .check {
-  width: 70px;
+  margin-right: 0px;
   height: 100%;
   background: #99E2D0;
   opacity: 1;
 }
 .menu:hover .check .fa-check-circle {
   transform: rotate(360deg);
+}
+
+.menu div {
+  overflow: hidden;
+}
+.menu div:first-child p, .menu div:first-child h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @keyframes defil {
@@ -356,6 +374,13 @@ h3 span {
 }
 .menu {
   animation: defil 2s ease-in-out;
+}
+
+.fct:hover {
+  background-color: #f5edff;
+}
+.fct:hover i {
+  color: #9356DC;
 }
 
 body {
