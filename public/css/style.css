@@ -264,7 +264,7 @@ h3 span {
   visibility: hidden;
   animation: 3s hidden;
   line-height: 50px;
-  position: absolute;
+  position: fixed;
   animation: 3s hiding;
 }
 
