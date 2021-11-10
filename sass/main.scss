@@ -53,9 +53,14 @@ header{
         text-align:center;
         font-size: 25px;
     }
-    h3{
+    .placeholder{
         text-align:center;
-        background-color:#eaeaea;        ;
+        background-color:#eaeaea;
+        padding-left: 80px;
+        input{
+            border: none;
+            background-color: #eaeaea;
+        }
     }
     .btn{
         @include btn;

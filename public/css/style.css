@@ -10,12 +10,9 @@ header h1 {
   margin: 0px;
   padding-top: 1em;
 }
-header h3 {
+header .placeholder {
   margin: 0px;
   padding: 1em;
-}
-header .fa-map-marker-alt {
-  margin-right: 1em;
 }
 header .Reservez {
   text-align: center;
@@ -441,8 +438,13 @@ header h2 {
   text-align: center;
   font-size: 25px;
 }
-header h3 {
+header .placeholder {
   text-align: center;
+  background-color: #eaeaea;
+  padding-left: 80px;
+}
+header .placeholder input {
+  border: none;
   background-color: #eaeaea;
 }
 header .btn {
