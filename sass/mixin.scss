@@ -19,4 +19,10 @@
         cursor: pointer;
         margin-bottom: 20px;
         margin-top:20px;
+        &:hover{
+            -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+            box-shadow: 5px 5px 15px 5px #000000;
+            background: rgb(147,26,142);
+            background: linear-gradient(90deg, rgba(147,26,142,0.6026785714285714) 0%, rgba(228,55,204,0.7147233893557423) 35%);
+        }
 }

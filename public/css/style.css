@@ -461,6 +461,12 @@ header .btn {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+header .btn:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  background: #931a8e;
+  background: linear-gradient(90deg, rgba(147, 26, 142, 0.6026785714) 0%, rgba(228, 55, 204, 0.7147233894) 35%);
+}
 header img {
   width: 100%;
 }
@@ -552,6 +558,12 @@ footer a {
   cursor: pointer;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+.btn:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  background: #931a8e;
+  background: linear-gradient(90deg, rgba(147, 26, 142, 0.6026785714) 0%, rgba(228, 55, 204, 0.7147233894) 35%);
 }
 
 .content_btn {
